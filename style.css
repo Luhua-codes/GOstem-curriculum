@@ -1,0 +1,45 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif; /*My own font stack*/
+  margin: 2em;
+  color: white;
+  background-color: black; /*If setting a background image, make sure to set a background colour in case the image doesn't load*/
+  background-image: url("https://cdn.glitch.com/d2419787-ea5e-4821-a4e9-4d9ff9e9e2ad%2Fdave-hoefler-L9MxEYN1B9Y-unsplash.jpg?v=1595811281551");
+  background-size: cover; /*Sets the background image to the same size as the body*/
+}
+
+h1 {
+  font-family: "Rowdies", cursive; /*The font-family copied from Google fonts*/
+  font-style: italic;
+  color: orange;
+}
+
+h2 {
+  color: papayaWhip;
+}
+
+
+.image {
+  width: 50%;
+}
+
+.logo {
+  width: 5%;
+}
+
+footer{
+  background-color: grey;
+  background-size: cover;
+}
+
+.special{
+  background-color: white;
+  background-image: url("https://cdn.glitch.com/d2419787-ea5e-4821-a4e9-4d9ff9e9e2ad%2FIMG_8820.JPG?v=1595820918151");
+  background-size: cover;
+  color: orange;
+}
+
+a{
+  color: white;
+}
