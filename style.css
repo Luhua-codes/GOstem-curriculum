@@ -1,8 +1,17 @@
 /* CSS files add styling rules to your content */
 
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
-  font-family: "Comic Sans MS", cursive, sans-serif; /*My own font stack*/
   margin: 2em;
+  font-family: "Comic Sans MS", cursive, sans-serif; /*My own font stack*/
   color: white;
   background-color: black; /*If setting a background image, make sure to set a background colour in case the image doesn't load*/
   background-image: url("https://cdn.glitch.com/d2419787-ea5e-4821-a4e9-4d9ff9e9e2ad%2Fdave-hoefler-L9MxEYN1B9Y-unsplash.jpg?v=1595811281551");
@@ -13,33 +22,88 @@ h1 {
   font-family: "Rowdies", cursive; /*The font-family copied from Google fonts*/
   font-style: italic;
   color: orange;
+  text-align: center;
 }
 
 h2 {
   color: papayaWhip;
+  font-weight: normal;
+  text-align: center;
+  background: rgba(225, 225, 225, 0);
 }
 
+footer {
+  background-color: rgba(232, 236, 241, 0.2);
+  background-size: cover;
+  padding: 10px;
+  margin-top: 1em;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+img:hover {
+  opacity: 0.2;
+}
+
+strong {
+  color: white;
+  background-color: DarkMagenta;
+}
+
+.intro {
+  text-align: justify;
+  overflow: hidden;
+}
+
+.clouds {
+  height: 80vmin;
+  float: right;
+  margin-left: 25px;
+}
+
+.about {
+  text-align: center;
+}
 
 .image {
-  width: 50%;
+  height: 30vmin;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
+
+/*
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  */
 
 .logo {
   width: 5%;
 }
 
-footer{
-  background-color: grey;
-  background-size: cover;
-}
-
-.special{
-  background-color: white;
+.special {
   background-image: url("https://cdn.glitch.com/d2419787-ea5e-4821-a4e9-4d9ff9e9e2ad%2FIMG_8820.JPG?v=1595820918151");
+  background-opacity: 0.2;
   background-size: cover;
   color: orange;
+  padding: 10px;
+  border: 5px dashed;
 }
 
-a{
-  color: white;
+.special h2 {
+  color: MediumTurquoise;
+  font-family: "Press Start 2P", cursive;
+}
+
+.last{
+  text-align: center;
+  font-family: 'Baloo Tamma 2', cursive;
 }
