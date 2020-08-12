@@ -1,5 +1,5 @@
 # GOstem-curriculum
 
-Test project to use as example code for hEr VOLUTION's 2020 GO!stem program curriculum
+Test project to use as example code for GO!stem 2020 curriculum
 
-One-page website published at https://go-stem-testproject.glitch.me/
+Published at https://go-stem-testproject.glitch.me/
