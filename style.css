@@ -19,7 +19,7 @@ body {
 }
 
 h1 {
-  font-family: "Rowdies", cursive; /*The font-family copied from Google fonts*/
+  font-family: "Rowdies", sans-serif; /*The font-family copied from Google fonts*/
   font-style: italic;
   color: orange;
   text-align: center;
@@ -100,10 +100,10 @@ strong {
 
 .special h2 {
   color: MediumTurquoise;
-  font-family: "Press Start 2P", cursive;
+  font-family: "Press Start 2P", sans-serif;
 }
 
-.last{
+.last {
   text-align: center;
-  font-family: 'Baloo Tamma 2', cursive;
+  font-family: "Baloo Tamma 2", sans-serif;
 }
